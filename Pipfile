@@ -9,6 +9,7 @@ name = "pypi"
 channels = "*"
 Django = "*"
 channels_redis = "*"
+asgiref = "*"
 
 [requires]
 python_version = "3.5"
