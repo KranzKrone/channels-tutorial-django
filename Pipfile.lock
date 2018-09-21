@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "bdebb85d58ccc0c0af23dfda0a11bd786341ee4ad50837d6d18d8e8648b8b874"
+            "sha256": "f4af0ed6f62abde9c0a986a524649d532393e9fd06ff93568e6855c189dafb5f"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -47,10 +47,10 @@
         },
         "autobahn": {
             "hashes": [
-                "sha256:829fbeb08b7e0f7e8cd14d9d169043a861075c3f6e5e2739d564dc985b5e7015",
-                "sha256:ef29f48d9375e20de4d60d63ca3feae330213421c3c3a7319014e1d21db7dfe8"
+                "sha256:3d3e16b5f5ec36cad9e38536e11688346b8a78e09b551bada541d8476ac33f54",
+                "sha256:d98b924f06865700116ee616027e4a6d678004a7b44e0d01cb262eab333112d6"
             ],
-            "version": "==18.9.1"
+            "version": "==18.9.2"
         },
         "automat": {
             "hashes": [
@@ -170,6 +170,14 @@
             ],
             "version": "==2018.5"
         },
+        "selenium": {
+            "hashes": [
+                "sha256:ab192cd046164c40fabcf44b47c66c8b12495142f4a69dcc55ea6eeef096e614",
+                "sha256:fdb6b1143d8899e8a32e358ad05bf5d89a480dbac359dbbd341592aa8696dcd1"
+            ],
+            "index": "pypi",
+            "version": "==3.14.1"
+        },
         "six": {
             "hashes": [
                 "sha256:70e8a77beed4562e7f14fe23a786b54f6296e34344c23bc42f07b15018ff98e9",
@@ -190,6 +198,14 @@
                 "sha256:b6b235d432cc58ffe111b43e337db71a5caa5d3eaa88f0eacf60b431c7626ef5"
             ],
             "version": "==18.8.1"
+        },
+        "urllib3": {
+            "hashes": [
+                "sha256:a68ac5e15e76e7e5dd2b8f94007233e01effe3e50e8daddf69acfd81cb686baf",
+                "sha256:b5725a0bd4ba422ab0e66e89e030c806576753ea3ee08554382c14e685d117b5"
+            ],
+            "markers": "python_version != '3.2.*' and python_version != '3.1.*' and python_version >= '2.6' and python_version != '3.3.*' and python_version < '4' and python_version != '3.0.*'",
+            "version": "==1.23"
         },
         "zope.interface": {
             "hashes": [
