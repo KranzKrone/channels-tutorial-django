@@ -10,6 +10,7 @@ channels = "*"
 Django = "*"
 channels_redis = "*"
 asgiref = "*"
+selenium = "*"
 
 [requires]
 python_version = "3.5"
