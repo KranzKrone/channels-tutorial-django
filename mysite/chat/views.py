@@ -10,5 +10,10 @@ def room(request, room_name):
     return render(request, 'chat/room.html', {
         'room_name_json': mark_safe(json.dumps(room_name))
     })
+	
+def tv(request, room_name):
+    return render(request, 'chat/smarttv.html', {
+        'room_name_json': mark_safe(json.dumps(room_name))
+    })	
 
 
